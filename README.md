@@ -8,6 +8,7 @@
 
 Before beginning this tutorial, you'll need a development environment with the following packages:
 
+- Linux
 - Compiler: gcc and clang are both excellent choices.
 - Build tools: autoconf, automake, libtool
 - (Optional) parser generators: re2c and bison
@@ -17,7 +18,7 @@ Before beginning this tutorial, you'll need a development environment with the f
 
 You test whether the prerequisites are met by running `pecl install -f geospatial-beta`  works on the command line, without errors.
 
-Debugging tools that could also be handy: gdb and valgrind, which they can install with their linux package managers too
+Debugging tools that could also be handy: gdb and valgrind, which they can install with their linux package managers too.
 
 ## Refactoring Legacy PHP: The Complete Guide
 
