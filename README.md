@@ -78,6 +78,9 @@ Instructor: Patrick Allaert
 
 **Instructor:** Miro Svrtan	
 
+This is a modeling workshop so no need to bring your laptop, I will be your coding hands so you can focus on thinking about the problem we are solving.
+
+
 ## Workshop by Microsoft
 
 To be announced
