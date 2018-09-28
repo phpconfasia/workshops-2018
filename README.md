@@ -69,6 +69,13 @@ Option #2 for hardcore coder
 
 **Instructor:** Yuri Pratama	
 
+### Pre-Requisites
+
+* Node & NPM
+* Composer
+* PHP 7.x
+* MySQL / MariaDB (Optional)
+* Your best text editor / IDE
 
 ## Create a framework-less PHP Web Application from scratch
 
