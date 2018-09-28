@@ -65,6 +65,44 @@ Option #2 for hardcore coder
 
 **Instructor:** Ben Dechrai	
 
+### Pre-requisites
+
+To take part in this workshop, you need to be comfortable using the command line terminal of your operating system, be able to clone a git repository, and have a basic understanding of PHP.
+
+#### <span style="background-color: #FFFF00">Before the Workshop</span>
+
+<span style="background-color: #FFFF00">Before you arrive at the workshop, ***you'll need to get your laptop prepared***. This process can take a few hours or more, depending on your internet connection speed.</span>
+
+#### Software Requirements
+
+The workshop code is known to work in [Chromium](https://www.chromium.org/) and [Chrome](https://www.google.com.au/chrome/), and the sandbox development environment uses [VirtualBox](https://www.virtualbox.org/) and [Vagrant](https://www.vagrantup.com/). Please ensure you have one of these browsers installed, and at least VirtualBox 5.1.34 and Vagrant 1.9.1 running and working on your machine.
+
+#### Cloning this Repository
+
+If you haven't yet, clone [`https://github.com/bendechrai/workshop-secure-messenger.git`](https://github.com/bendechrai/workshop-secure-messenger.git) using your favourite git client.
+
+```bash
+git clone --depth 1 https://github.com/bendechrai/workshop-secure-messenger.git
+```
+
+#### Download the Vagrant box
+
+Grab the Vagrant box image from [https://www.dropbox.com/s/dl/10e5d70t7i52jhl/workshop-secure-messenger.box](https://www.dropbox.com/s/dl/10e5d70t7i52jhl/workshop-secure-messenger.box) and save it in the root of the new git repository.
+
+```bash
+curl -OL https://www.dropbox.com/s/dl/10e5d70t7i52jhl/workshop-secure-messenger.box
+```
+
+#### Virtual Machine
+
+This code repository contains a working Vagrant box, for ease of getting started. Once you've cloned the repository, head to your command line terminal, and run:
+
+```bash
+cd <path/to/workshop-secure-messenger>
+vagrant box add workshop-secure-messenger.box --name workshop-secure-messenger
+vagrant up
+```
+
 ## Goodbye jQuery! Enhance your PHP project with VueJS
 
 **Instructor:** Yuri Pratama	
