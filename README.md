@@ -110,7 +110,26 @@ vagrant up
 
 ## Create a framework-less PHP Web Application from scratch
 
-Instructor: Patrick Allaert
+**Instructor:** Patrick Allaert
+
+### Prerequisites
+
+* >=PHP-7.0., preferably with [php-ast](https://github.com/nikic/php-ast) extension (0.1.5 or newer) in order to benefit from [phan](https://github.com/phan/phan).
+* Apache (or any other web server with URL rewriting capabilities).
+* Highly recommended: Internet Connection, to be able to browse and clone https://github.com/patrickallaert/php-from-scratch-workshop as well as installing the dependencies of the project:
+```json
+    "require-dev": {
+        "slevomat/coding-standard": "^4.8",
+        "phan/phan": "^1.0",
+        "phpunit/phpunit": "^7.3"
+    }
+```
+
+In order to gain some time, clone [`https://github.com/patrickallaert/php-from-scratch-workshop.git`](https://github.com/patrickallaert/php-from-scratch-workshop.git):
+
+```bash
+git clone https://github.com/patrickallaert/php-from-scratch-workshop.git workshop
+```
 
 ## Hands on PHPSpec
 
