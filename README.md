@@ -22,8 +22,9 @@ Debugging tools that could also be handy: gdb and valgrind, which they can insta
 
 ## Refactoring Legacy PHP: The Complete Guide
 
-**Instructor:** Junade Ali	
+**Instructor:** Junade Ali
 
+GitHub repo: https://github.com/IcyApril/phpasia-examples
 
 ## Drupal: Zero to Hero in 3 hours
 
@@ -63,7 +64,7 @@ Option #2 for hardcore coder
 
 ## Build your own Secure Messenger in 3 hours
 
-**Instructor:** Ben Dechrai	
+**Instructor:** Ben Dechrai
 
 ### Pre-requisites
 
@@ -105,7 +106,7 @@ vagrant up
 
 ## Goodbye jQuery! Enhance your PHP project with VueJS
 
-**Instructor:** Yuri Pratama	
+**Instructor:** Yuri Pratama
 
 ### Pre-Requisites
 
@@ -140,14 +141,14 @@ git clone https://github.com/patrickallaert/php-from-scratch-workshop.git worksh
 
 ## Hands on PHPSpec
 
-**Instructor:** Miro Svrtan	
+**Instructor:** Miro Svrtan
 
 This is a modeling workshop so no need to bring your laptop, I will be your coding hands so you can focus on thinking about the problem we are solving.
 
 
-## Workshop by Microsoft
+## How to contribute to PHP docs
 
-To be announced
+**Instructor:** Pasindu De Silva
 
 ## Getting Started with Symfony 4
 
